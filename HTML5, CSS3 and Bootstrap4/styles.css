@@ -1,0 +1,73 @@
+p{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/4/41/Sunflower_from_Silesia2.jpg");
+    font-family: 'Times New Roman', Times, serif;
+}
+a:link{
+    color: orangered;
+    background-color: aqua;
+    border: 2px solid green;
+    text-decoration: none;
+}
+
+a:visited{
+    color: yellow;
+    background-color: palevioletred;
+    text-decoration: wavy;
+}
+
+a:hover{
+    color: violet;
+    text-decoration: underline;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/a/a5/Red_Kitten_01.jpg");
+}
+
+table{
+    width: 100%;
+}
+
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+tr,td{
+    padding: 1%;
+}
+
+.both{
+    color: yellow;
+    background-color: aqua;
+}
+
+#only{
+    background-color: violet;
+    border: 2px dashed peru;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+#maindiv{
+    float: left;
+    padding: 1%;
+}
+
+li{
+    color: aliceblue;
+    display: inline;
+    padding-right: 20px;
+}
+
+#ion{
+    height: 200px;
+    width: 200px;
+    background-color: tomato;
+    animation: anime 4s;
+    animation-iteration-count: 3;
+}
+
+@keyframes anime{
+    from{background-color: tomato;}
+    to{background-color: green;}
+}
